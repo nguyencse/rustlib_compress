@@ -1,5 +1,7 @@
 # rustlib_compress
-Image compress using Rust
+Image compress using Rust</br>
+This is a fork of https://github.com/siiptuo/pio.
+Big thanks.
 
 ## Features
 
