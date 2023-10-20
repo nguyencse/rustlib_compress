@@ -1,6 +1,14 @@
 # rustlib_compress
 Image compress using Rust
 
+## Features
+
+- Optimize images automatically for the web
+- Supports PNG, JPEG and WebP
+- Ensure images are displayed consistently across browsers by handling ICC profiles and Exif orientation
+- Powered by great projects like [mozjpeg](https://github.com/mozilla/mozjpeg) and [pngquant](https://pngquant.org/)
+- Easily installable statically-linked binary (for Linux and macOS)
+
 # export bundle for iOS
 `cargo install cargo-lipo`
 then
