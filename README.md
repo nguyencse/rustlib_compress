@@ -21,7 +21,7 @@ Build from source:</br>
 then
 `cargo lipo --release`
 to generate a bundle named `libcomp.a` for iOS and use this bundle to integrate with your apps. </br>
-or can use latest bundle file from [GitHub releases](https://github.com/nguyencse/rustlib_compress/releases) 
+Or can use latest bundle file from [GitHub releases](https://github.com/nguyencse/rustlib_compress/releases) 
 
 ### Linux & macOS
 
