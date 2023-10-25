@@ -259,7 +259,7 @@ fn compress_image(
     Ok(best_buffer)
 }
 
-fn pio(args: Args) -> Result<(), String> {
+fn comp(args: Args) -> Result<(), String> {
     let target = QUALITY_SSIM[args.quality as usize];
 
     let min = args
@@ -402,7 +402,7 @@ fn pio(args: Args) -> Result<(), String> {
 
 fn main() {
     let args = Args::parse();
-    pio(args).unwrap_or_else(|err| {
+    comp(args).unwrap_or_else(|err| {
         eprintln!("{}", err);
         std::process::exit(1);
     })
