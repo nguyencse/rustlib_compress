@@ -26,7 +26,7 @@ or can use latest bundle file from [GitHub releases](https://github.com/nguyencs
 ### Linux & macOS
 
 Download the latest Linux & macOS binary from [GitHub releases](https://github.com/nguyencse/rustlib_compress/releases).
-These versions are built on Ubuntu 22.04.3 LTS.
+These versions are built on Ubuntu 22.04.3 LTS and macOS Sonoma 14.0
 
 After downloading the binary, run `chmod +x path-to-comp` to make it executable.</br>
 Consider storing the binary somewhere on your `PATH` like `/usr/local/bin/comp`.</br>
