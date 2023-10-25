@@ -23,9 +23,9 @@ then
 to generate a bundle named `libcomp.a` for iOS and use this bundle to integrate with your apps. </br>
 or can use latest bundle file from [GitHub releases](https://github.com/nguyencse/rustlib_compress/releases) 
 
-### Linux
+### Linux & macOS
 
-Download the latest Linux binary from [GitHub releases](https://github.com/nguyencse/rustlib_compress/releases).
+Download the latest Linux & macOS binary from [GitHub releases](https://github.com/nguyencse/rustlib_compress/releases).
 These versions are built on Ubuntu 22.04.3 LTS.
 
 After downloading the binary, run `chmod +x path-to-comp` to make it executable.</br>
