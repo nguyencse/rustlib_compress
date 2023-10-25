@@ -1,6 +1,6 @@
 # rustlib_compress
 Image compress using Rust</br></br>
-This is a fork of https://github.com/siiptuo/pio to adapt multiple platforms, not even CLI or desktop.</br>
+This is a fork of [Pio](https://github.com/siiptuo/pio) to adapt multiple platforms, not even CLI or desktop.</br>
 Big thanks.
 
 ## Features
@@ -38,7 +38,11 @@ Make binary excutable:
 
 ## Usage
 
-Basic usage CLI:
+### Flutter
+Checkout this example:</br>
+[Flutter example](https://github.com/nguyencse/libcomp-flutter-example)
+
+### Basic usage CLI
 
 ```sh
 comp input.jpeg --output output.jpeg
@@ -52,4 +56,4 @@ comp input.jpeg --quality 95 --output output.jpeg
 
 The target quality is a value between 0 and 100 and roughly corresponds to JPEG quality values.
 
-For the full list of available options, run `comp --help`.
+For the full list of available options, run `comp --help`
