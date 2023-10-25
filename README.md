@@ -39,8 +39,7 @@ Make binary excutable:
 ## Usage
 
 ### Flutter
-Checkout this example:</br>
-[Flutter example](https://github.com/nguyencse/libcomp-flutter-example)
+Checkout this repository [Rust Image Compress Flutter Example](https://github.com/nguyencse/libcomp-flutter-example)
 
 ### Basic usage CLI
 
