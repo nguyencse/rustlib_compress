@@ -11,16 +11,17 @@ Big thanks.
 - Powered by great projects like [mozjpeg](https://github.com/mozilla/mozjpeg) and [pngquant](https://pngquant.org/)
 - Easily installable statically-linked binary (for Android, iOS, Flutter, React Native, web apps, desktop apps, and even terminal CLI).
 
-# export bundle for iOS
-`cargo install cargo-lipo`
-then
-`cargo lipo --release`
-to generate a bundle named `librustylib.a` for iOS and use this bundle to integrate with your apps. </br>
-The above command is just for building the iOS platform. So, use another command to adapt the specific platforms. (to be continued to update). </br>
-
 Let's contribute, folks.
 
 ## Installation
+
+### iOS
+Build from source:</br>
+`cargo install cargo-lipo`
+then
+`cargo lipo --release`
+to generate a bundle named `libcomp.a` for iOS and use this bundle to integrate with your apps. </br>
+or can use latest bundle file from [GitHub releases](https://github.com/nguyencse/rustlib_compress/releases) 
 
 ### Linux
 
@@ -37,7 +38,7 @@ Make binary excutable:
 
 ## Usage
 
-Basic usage:
+Basic usage CLI:
 
 ```sh
 comp input.jpeg --output output.jpeg
