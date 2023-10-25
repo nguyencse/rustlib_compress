@@ -1,10 +1,10 @@
 [package]
-name = "rustylib"
+name = "comp"
 version = "0.1.0"
 edition = "2021"
 
 [lib]
-name = "rustylib"
+name = "comp"
 crate-type = ["dylib", "staticlib"] # "dylib" for Android, "staticlib" for iOS
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
