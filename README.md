@@ -29,7 +29,7 @@ These versions are built on Ubuntu 22.04.3 LTS.
 
 After downloading the binary, run `chmod +x path-to-comp` to make it executable.</br>
 Consider storing the binary somewhere on your `PATH` like `/usr/local/bin/comp`.</br>
-`sudo cp comp /usr/local/bin/comp`</br>
+`sudo cp path-to-comp /usr/local/bin/comp`</br>
 `sudo chmod +x /usr/local/bin/comp`
 
 ## Usage
