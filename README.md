@@ -63,4 +63,7 @@ comp input.jpeg --quality 95 --output output.jpeg
 
 The target quality is a value between 0 and 100 and roughly corresponds to JPEG quality values.
 
-For the full list of available options, run `comp --help`
+For the full list of available options, run
+```sh
+comp --help
+```
