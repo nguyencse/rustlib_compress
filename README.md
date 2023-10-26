@@ -49,7 +49,7 @@ sudo chmod +x /usr/local/bin/comp
 ### Flutter
 Checkout this repository [Rust Image Compress Flutter Example](https://github.com/nguyencse/libcomp-flutter-example)
 
-### Basic usage CLI
+### CLI
 
 ```sh
 comp input.jpeg --output output.jpeg
